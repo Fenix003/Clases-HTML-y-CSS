@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title>
+        <link rel="stylesheet" href="Box_Model_Fonts.css">
+        <link rel="stylesheet" href="Box_Model_Styles.css">
+    </head>
+    <body>
+        <h1 id="Titulo">Box Model</h1>
+        <h2 class="Subtitulos" id="Teoria">Teoría</h2>
+        <p class="Parrafos">
+            El 'Box Model' es un concepto que compone todo en css; toda etiqueta o elemento en html es una caja, y esta está compuesta de 4 elementos fundamentales:
+        </p>
+        <ol>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Content</h3>
+                <p class="Parrafos">
+                    Es todo lo que contiene la caja, puede ser texto, alguna imagen, un ancla, cualquier cosa que este dentro.
+                </p>
+            </li>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Padding</h3>
+                <p class="Parrafos">
+                    Es básicamente relleno, es un espacio vacío que separa el contenido de la caja del borde de la misma, si el 'padding: 0' entonces, el contenido está pegado a la caja. Igualmente, existen 3 formas para poner el relleno de un elemnto: La primera, poniendo solo un valor, y ese valor se adapta a todos los sentidos del elemento, La segunda, poniendo dos valores, y se adaptan, el primero de arriba y abajo, y el segundo de ezquierda y derecha, Y la tercera, poniendo cuatro valores que se adaptarán a los lados del elemento en el sentido horario.
+                </p>
+            </li>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Border</h3>
+                <p class="Parrafos">
+                    Es literalmente el borde de la caja, se puede modificar el estilo, para que sea punteado rayado, el color, el grosor y demás cosas, o tambien, como en la mayoria de los casos se puede ocultar para que no se vea, pero si está ahí. El borde tiene que tener 3 atributos clave, el 'width' el 'style' y el 'color', y se ponen en ese orden en la edición de 'border', además existe el 'border-radius', que funciona precisamente para redondear las esquinas de estos bordes y sus medidas afectan en igual sentido que las del padding.
+                </p>
+            </li>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Margin</h3>
+                <p class="Parrafos">
+                    Es la margen, es un espacio vacío que separa unas cajas de otras, no hace parte de la caja pero hace un espacio entre unas y otras. Y cuando ponemos 'margin: auto;' todos los elementos se centran a lo largo y ancho de la caja que lo contiene. Al igual que con el 'padding', existen 3 formas para poner la margen de un elemnto: La primera, poniendo solo un valor, y ese valor se adapta a todos los sentidos del elemento, La segunda, poniendo dos valores, y se adaptan, el primero de arriba y abajo, y el segundo de ezquierda y derecha, Y la tercera, poniendo cuatro valores que se adaptarán a los lados del elemento en el sentido horario.
+                </p>
+            </li>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Height</h3>
+                <p class="Parrafos">
+                    Es el alto que ocupa la caja.
+                </p>
+            </li>
+            <li class="Lista">
+                <h3 class="Subtitulos1">Width</h3>
+                <p class="Parrafos">
+                    Es el ancho que ocupa la caja.
+                </p>
+            </li>
+        </ol>
+        <h2 class="Subtitulos">Ejemplo</h2>
+        <p class="Parrafos">
+            Tenemos 2 imágenes, el contenido de la imágen es el 'content', el espacio entre las imágenes y el borde es el 'padding', el borde está visible y de distintos estilos y las cajas están separadas por el 'margin'
+        </p>
+        <div id="Caja1">
+        </div>
+        <div id="Caja2">
+        </div>
+    </body>
+</html>

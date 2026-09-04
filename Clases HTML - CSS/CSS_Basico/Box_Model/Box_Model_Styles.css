@@ -1,0 +1,71 @@
+body {
+    background-color: #27191c;
+}
+
+.Subtitulos {
+    color: #6e9987;
+    font-family: Cormorant;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.Subtitulos1 {
+    color: #6e9987;
+    font-family: Cormorant;
+    font-weight: 500;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.Parrafos {
+    color: #e0e4ce;
+    text-align: start;
+    font-family: Cormorant;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 23px;
+}
+
+#Titulo {
+    color: #114d4d;
+    font-family: Cormorant;
+    font-weight: 900;
+    text-align: center;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+#Caja1 {
+    padding: 5px;
+    border-width: 8px;
+    border-radius: 20px;
+    border-color: #e0e4ce;
+    border-style: dashed dotted dashed dotted;
+    margin: 10px;
+    background-color: #114d4d;
+    width: 500px;
+    height: 500px;
+}
+#Caja2 {
+    padding: 3px;
+    border-width: 8px;
+    border-color: #114d4d;
+    border-style: dotted dashed dotted dashed;
+    margin: 5px;
+    background-color: #6e9987;
+    width: 500px;
+    height: 500px;
+} 
+#Teoria {
+    margin-top: 50px;
+}
+.Lista {
+    font-size: 28px;
+    color: #e0e4ce;
+}

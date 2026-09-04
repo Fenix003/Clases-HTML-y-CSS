@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enlaces</title>
+    </head>
+    <body>
+        <h1>Enlaces</h1>      
+        <p>
+            los enlaces son hipervínculos, se utiliza la etiqueta 'a', y antes de cerrar la etiqueta se coloca el atributo 'href' que indica la dirección a la que se quiere enlazar, y adentro de la etiqueta se coloca el texto que se quiere mostrar como enlace.
+        </p>
+
+        <h2>Enlaces externos</h2>
+        <p>
+            Cuando el enlace hace parte de la web (osea que es externo), se tiene que poner 'https://www.' seguido del nombre de la web y su extensión, por ejemplo: 'https://www.google.com', si no se hace esto, la página buscara un archivo local con ese nombre, y si no lo encuentra, mostrara un error.
+        </p>
+
+        <p>
+            <a href="https://www.google.com">Visita Google</a>
+        </p>
+
+        <h2>Enlaces internos</h2>
+        <p>
+            Cuando el enlace hace parte de la web (osea que es interno), se tiene que poner el nombre del archivo al que se quiere enlazar, si no se hace esto, la página buscara un archivo local con ese nombre, y si no lo encuentra, mostrara un error.
+        </p>
+
+        <ul>
+            <li> 
+                <a href="Estructuras_Parrafos_Encabezados.html">Apuntes de Estructuras, Parrafos y Encabezados</a>
+            </li>
+            <li>
+                <a href="Listas.html">Apuntes de Listas</a>
+            </li>
+        </ul>
+
+        <h2>Enlaces en otras pestañas</h2>
+        <p>
+            Los anteriores enlaces se abrían en la misma pestaña de dónde se accedían, con el atributo 'target', podemos indicar dónde queremos que se abra el enlace, si en una nueva pestaña poniendo '_blank', o en la misma '_self' (aunque eso sobra un poco porque basta con no ponerlo para que suceda)
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com" target="_blank">Visita Youtube</a>
+        </p>
+
+        <h2>Enlaces con 'preview'</h2>
+        <p>
+            Otro atributo de funcionalidad de los enlaces y de cualquier elemento en general en HTML, es 'title', lo que hace es que nos brinda información adicional cuando pasamos el cursor por encima del elemento
+        </p>
+
+        <ul>
+            <li>
+                <a href="Listas.html" target="_blank" title="Este te lleva a otra pestaña">Apuntes de Listas</a>
+            </li>
+
+            <li>
+                <a href="Estructuras_Parrafos_Encabezados.html" target="_self" title="Este NO te lleva a otra pestaña">Apuntes de Estructuras, Parrafos y Encabezados</a>
+            </li>
+        </ul>    
+    </body>
+</html>

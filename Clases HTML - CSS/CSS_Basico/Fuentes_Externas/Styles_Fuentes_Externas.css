@@ -1,0 +1,63 @@
+body {
+    background-color: #000038;
+}
+
+
+.Normal {
+    line-height: 150%;
+}
+.Subtitulos {
+    color: #AE5361;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Lista {
+    color: #AEA053;
+}
+
+#Titulo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #538EAE;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-weight: 900;
+    font-style: oblique;
+}
+#Parrafo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #AEA053;
+    text-align: start;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#Primero {
+    font-family: Mozilla;
+    font-weight: 100;
+}
+#Segundo {
+    font-family: Mozilla;
+    font-weight: 200;
+}
+#Tercero {
+    font-family: Mozilla;
+    font-weight: 400;
+}
+#Cuarto {
+    font-family: Mozilla;
+    font-weight: 500;
+}
+#Quinto {
+    font-family: Mozilla;
+    font-weight: 700;
+}
+#Sexto {
+    font-family: Mozilla;
+    font-weight: 900;
+}

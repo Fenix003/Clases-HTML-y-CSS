@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Selectores, Propiedades de Texto y Fuente</Title>
+        <link rel="stylesheet" href="Selectores_Propiedades_De_Texto_Y_Fuentes.css">
+    </head>
+    <body>
+        <h1>Selectores, Propiedades de Texto y Fuente</h1>
+        <ul>
+            <li>
+                <h2>Link</h2>
+                <p>
+                    Para que un archivo css se ancle a nuestro archivo html, en el 'head' tenemos que anclar la ruta del archivo css con la etiqueta 'link', antes de el 'href' que es dónde se pone la ruta, está el atributo 'rel' que es el que le indica al archivo html, que archivo esta ingresando, en este caso, cómo es un archivo css, es de tipo stylesheet.
+                </p>
+            </li>
+            <li>
+                <h2>Selectores</h2>
+                <ul>
+                    <li>
+                        <h3>Clases</h3>
+                        <h4>Teoría</h4>
+                        <p>
+                            Para cada elemento del html que querramos trabajar o modificar en css, tenemos que ponerle una clase, con el atributo 'class', para que en el archivo css podamos identificarlo, para cambierle lo que querramos cambiar.
+                        </p>
+                        <h4>Ejemplo</h4>
+                        <h3>Top 5 Mejores Juegos</h3>
+                        <ol>
+                            <li class="Destacado">Minecraft</li>
+                            <li>Pokemon</li>
+                            <li class="Destacado">Rocket League</li>
+                            <li class="Destacado">Mario Kart</li>
+                            <li>Overwach</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>Id</h3>
+                        <h4>Teoría</h4>
+                        <p>
+                            Las clases se suelen usar para varios elementos que quiero que cumplan con esas características específicas, pero cuando quiero que un solo elemento cumpla 
+                            una característica en especial, le pingo un 'id' con el atributo 'id', y en el archivo css, lo llamo poniendo un signo numeral (#) y luego el nombre del id.
+                        </p>
+                        <h4>Ejemplo</h4>
+                        <h3>Top 5 Mejores Juegos</h3>
+                        <ol>
+                            <li class="Destacado">Minecraft</li>
+                            <li id="Juego_Favorito">Pokemon</li>
+                            <li class="Destacado">Rocket League</li>
+                            <li class="Destacado">Mario Kart</li>
+                            <li>Overwach</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Propiedsdes de Texto y Fuente</h2>
+                <h3>Teoría</h3>
+                <p>
+                    En css existen propiedades que solamente cambian el estilo del texto, como lo son, 'font-color' para el color de la letra, 'font-family' para la tipografía, 'font-size' para el tamaño de la letra, 'font-weight' para el grosor de la letra y 'font-style' par poner la letra inclinada, 'text-align' para alinear un texto, centrarlo, justificarlo, 'text-decoration' para subrrayarlo, por arriba, abajo o al medio, 'line-heihgt' para poner un interlineado de algun valor en específico, 'letter-spacing' para definir un espacio entre las letras, 'text-transform' para poner todo el texto en matuscula, minuscula etc
+                </p>
+                <h3 class="Ejemplo" id="Titulo">Ejemplo</h3>
+                <p class="Ejemplo" id="Parrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quas temporibus ex totam natus eum quaerat suscipit doloremque ducimus pariatur dolor veritatis dicta minima unde vel perferendis, enim ipsum officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laudantium nemo soluta porro praesentium, libero harum molestiae repellat suscipit doloremque tempore numquam vitae assumenda pariatur eos aliquid enim quae accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus optio enim dignissimos, tempora fuga. Nesciunt, aliquam quidem quis similique deleniti facere, amet ex excepturi sed molestias laudantium et sunt.
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

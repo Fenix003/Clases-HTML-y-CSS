@@ -1,0 +1,29 @@
+.Destacado {
+    color: red;
+}
+
+#Juego_Favorito {
+    color:blue;
+}
+
+
+.Ejemplo {
+    color:rgb(184, 135, 11);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+#Titulo {
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Parrafo {
+    font-size: medium;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: left;
+}

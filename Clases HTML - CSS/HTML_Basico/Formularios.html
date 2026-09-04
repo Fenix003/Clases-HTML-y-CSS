@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+
+        <h2>Teoría</h2>
+        <p>
+            Los formularios se llaman con la etiqueta de bloque 'form', y así como lo etiqueta 'ol' o 'ul', estas necesitan algo adentro para hacer un formulario y eso es la etiqueta 'input', es la manera que tengo para que el usuario pueda ingresear información y que la reciba un servidor, existen varios tipos de 'input' que se definen con el atributo 'type' adentro de la etiqueta.
+        </p>
+        <p>
+            Existen también 3 atributos muy importantes para los input, y estos son:
+        </p>
+
+        <ul>
+            <li>'required'</li>
+            <p>Hace que el usuarion no pueda enviar el formulario sin completar ese input correctamente, además le agrega un atributo title predeterminado que dice 'Completa este campo'.</p>
+            <li>'name'</li>
+            <p>Es el atributo que nos ayuda a identificar nuestro input; cuando el campo del input se completa y el formulario se envía, podemos clasificar la respuesta con este atributo</p>
+            <li>'placeholder'</li>
+            <p>Hace que lo que escribamos dentro, esté ahi hasta que el usuario escriba algo, sirve como introducción, por ejemplo, en un input 'text' puedo poner en el placeholder: coloca tu nombre</p>
+        </ul>
+
+        <h2>Ejemplo</h2>
+        <form>
+            <input type="text" required name="Nombre de Usuario" placeholder="Escribe tu nombre">
+            <input type="email" required name="Email" placeholder="Escribe tu email">
+            <input type="password" name="Contraseña" placeholder="Escribe la Contraseña" >
+            <input type="date" required name="Fecha" title="Fecha de nacimiento">
+            <input type="file" required name="Archivo" title="Entrega el archivo">
+            <input type="button" name="Boton">
+            <input type="submit">
+        </form>
+    </body>
+</html>
