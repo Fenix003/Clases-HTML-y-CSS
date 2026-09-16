@@ -59,6 +59,7 @@ ul ::marker {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-top: 35px;
 }
 .Ejemplos {
     width: 620px;
@@ -68,5 +69,29 @@ ul ::marker {
     padding: 30px auto;
 }
 #E1 {
-    border: 10px solid #2DD4BF;
+    border: 10px solid #2B4278;
+}
+#E2 {
+    border: 10px solid transparent;
+    border-radius: 25px;
+}
+#E3 {
+    border: 10px solid transparent;
+    border-radius: 50px 0;
+}
+#E4 {
+    border: 10px solid transparent;
+    border-radius: 0 50px 25px 15px;
+}
+#E5 {
+    border: 10px solid #2B4278;
+    border-radius: 25px;
+}
+#E6 {
+    border: 10px solid #2B4278;
+    border-radius: 50px 0;
+}
+#E7 {
+    border: 10px solid #2B4278;
+    border-radius: 0 50px 25px 15px;
 }
