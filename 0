@@ -1,0 +1,65 @@
+[33mcommit 048222c0df3d0d427af14e0fa6e997bbdb2c8cb8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Thu Sep 17 20:41:47 2026 -0500
+
+    Ultima modificación de la noche al archivo Unidades.html
+
+[33mcommit 6aac60601c91a3ce1085a1825d425f72880774de[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Thu Sep 17 19:30:35 2026 -0500
+
+    Seguimos trabajando en Unidades.html y ya se configuraron cada una de las fuentes del archivo en Unidades_Fonts.css
+
+[33mcommit b12280aa2bbee89937a0ea2617b592048c618ecc[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Tue Sep 15 19:41:06 2026 -0500
+
+    Se empieza a trabajar los apuntes de Unidades
+
+[33mcommit d883b4c3ff1461329e540e0bdd5a5608c809712a[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Tue Sep 15 19:24:54 2026 -0500
+
+    Se termina PORFIN el archivo de bordes.html con sus estilos (Bordes_Styles.css) y tipografia (Bordes_Fonts.css)
+
+[33mcommit d7b6bf09568c79d988acf2da22cd42d0269f7889[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 11 20:51:12 2026 -0500
+
+    Seguimos trabajando en bordes Pd: NO SE COMO CENTRAR EL PARRAFO EN EL DIV :((((((((
+
+[33mcommit 4de69b3628f5b7b7c1f1d951bab306b6fda0f618[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Thu Sep 10 20:00:35 2026 -0500
+
+    Seguimos trabajando en bordes
+
+[33mcommit 1376de0664ee0b6574166be321601f3bafe4550d[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 4 20:40:59 2026 -0500
+
+    Agregar archivo HTML 'Bordes' y estilos relacionados para la explicación de la propiedad 'border', incompleto
+
+[33mcommit 84481388772631360b12c649f58928a48f7764d3[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 4 19:39:55 2026 -0500
+
+    Se hace lo mismo con las fuentes Mozilla, para una mejor configuración de fuentes
+
+[33mcommit d71cae564462c5717b999f255cf7d209a0f939de[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 4 19:20:02 2026 -0500
+
+    Se modifica la carpeta del ejercisio_1.html ya terminado
+
+[33mcommit f8da941636e5b22e12941479d34acd6b7c443d74[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 4 19:08:05 2026 -0500
+
+    Se renombran las fuentes para que tengan al costado el valor del 'font-size' y así poder configurar las fuentes de manera más eficiente
+
+[33mcommit eb43e0ed468c01eeb9e1245ceaba60ffaa108b28[m
+Author: Erick <martiago.acosta00@gmail.com>
+Date:   Fri Sep 4 17:32:42 2026 -0500
+
+    Se están agregando las carpetas iniciales con la fuentes y los archivos de cada clase, además de el 'Ejercisio_1' en su premera versión
