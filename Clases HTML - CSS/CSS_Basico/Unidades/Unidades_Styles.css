@@ -1,3 +1,38 @@
 #Background {
-    background-color: #008355;
+    background-color: #707e8b;
+}
+#Title {
+    font-family: 'Smooch Sans';
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3.5em;
+    text-transform: capitalize;
+    color: #26315b;
+    padding: 5px 0 0 0; 
+    margin: auto;
+}
+.Subtítulos2 {
+    font-family: 'Smooch Sans';
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: #325477;
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+.Párrafos {
+    font-family: 'Smooch Sans';
+    font-size: 1.25em;
+    color: #31214a;
+    margin: 15px 0;
+}
+.Subtítulos3 {
+    color: #3b5d7d;
+    text-transform: capitalize;
+    font-family: 'Smooch Sans';
+    font-size: 2em;
+    margin: 10px 1px;
+}
+ul ::marker {
+    content: none;
 }
