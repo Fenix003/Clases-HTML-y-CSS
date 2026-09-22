@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fondos</title>
+        <link rel="stylesheet" href="Fondos_Fonts.css">
+        <link rel="stylesheet" href="Fondos_Styles.css">
+    </head>
+    <body id="background-principal">
+        <h1 id="Título">fondos</h1>
+        <h2 class="Subtítulos">Teoría</h2>
+        <p class="Párrafos">Existen distintas propiedades que le podemos asignar al fondo para editarlo</p>
+        <ul>
+            <li>
+                <h3 class="Subtítulos_2">background-color</h3>
+                <p class="Párrafos">
+                    Funciona para poner un color, puede ser en rgb, hexadecimal... etc
+                </p>
+            </li>
+            <li>
+                <h3 class="Subtítulos_2">background-image</h3>
+                <p class="Párrafos">
+                    Funciona para poner como fondo una imagen, esta no es una imagen como tal, es un fondo
+                </p>
+            </li>
+            <li>
+                <h3 class="Subtítulos_2">background-size</h3>
+                <p class="Párrafos">
+                    Funciona para determinar el tamaño del fondo, no de la caja. Se suele utilizar con imágenes y pueden adoptar los siguientes valores:
+                </p>
+                <ul>
+                    <li>
+                        <h4 class="Subtítulos_3">auto</h4>
+                        <p class="Párrafos">
+                            Conserva las dimensiones originales de la imagen 
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">porcentaje</h4>
+                        <p class="Párrafos">
+                            Delimita el ancho de la imagen con respecto a un porcentaje, 100% adapta completamente el ancho de la imagen al width de la caja, pero el alto no. Cuando hay espacio sobrante, la imagen por defecto se repite
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">pixeles</h4>
+                        <p class="Párrafos">
+                            Delimita el ancho de la imagen con pixeles, pero el alto no. Cuando hay espacio sobrante, la imagen por defecto se repite
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">contain</h4>
+                        <p class="Párrafos">
+                            Adapta el ancho y en alto de la imagen a la resolución de la caja, de manera que la imagen se vea completa por lo menos una vez. Cuando hay espacio sobrante, la imagen por defecto se repite
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">cover</h4>
+                        <p class="Párrafos">
+                            Adapta el ancho y el alto de manera de que la imagen nunca se repita, incluso si esta adaptación corta la imagen
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="Subtítulos_2">background-position</h3>
+                <p class="Párrafos">
+                    Se usa cuando tenemos de fondo una imagen y esta no se repite, pero se corta, con esta propiedad podemos enfocar la imagen o empujarla hacia una parte en específico de la misma usando las distintas direcciones: <span>left</span>,<span>right</span>,<span>center</span>,<span>top</span>,<span>bottom</span>
+                </p>
+            </li>
+            <li>
+                <h3 class="Subtítulos_2">background-repeat</h3>
+                <p class="Párrafos">
+                    Se usa cuando tenemos de fondo una imagen y esta si se repite, con esta propiedad vamos o a delimitar o a eliminar esa repetición con los siguientes valores:
+                </p>
+                <ul>
+                    <li>
+                        <h4 class="Subtítulos_3">repeat</h4>
+                        <p class="Párrafos">
+                            Es el valor que tiene la propiedad por defecto, y hace que si la caja es más grande que la imagen, la imagen se repita hasta completar los espacios en blanco
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">no-repeat</h4>
+                        <p class="Párrafos">
+                            Es el valor que hace que la imagen no se repita, y que si la caja es más grande que la imagen, el espacio sobrante se rellene con el color determinado
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">repeat-x</h4>
+                        <p class="Párrafos">
+                            Es el valor que hace que la imagen se repita pero únicamente en el eje x de la imagen
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">repeat-y</h4>
+                        <p class="Párrafos">
+                            Es el valor que hace que la imagen se repita pero únicamente en el eje y de la imagen
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="Subtítulos_2">background-attachment</h3>
+                <p class="Párrafos">
+                    Se usa cuando tenemos una imagen que no se repite, pero que está cortada, con los siguientes valores se puede modificar el comportamiento de la imagen según el scroll que hagamos en la página: 
+                </p>
+                <ul>
+                    <li>
+                        <h4 class="Subtítulos_3">scroll/local</h4>
+                        <p class="Párrafos">
+                            Es el valor que tiene la propiedad por defecto y hace que sin importar el scroll que nosotros hagamos sobre la página, la imagen no va a cambiar de posición
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="Subtítulos_3">fixed</h4>
+                        <p class="Párrafos">
+                            Es el valor que permite que si la imagen esta cortada, según hagamos scroll en la página, la imagen cambie de posición 
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2 class="Subtítulos">Ejemplos</h2>
+        <div class="Cajas" id="B1"></div>
+        <div class="Cajas" id="B2"></div>
+        <div class="Cajas" id="B3"></div>
+        <div class="Cajas" id="B4"></div>
+        <div class="Cajas" id="B5"></div>
+        <div class="Cajas" id="B6"></div>
+        <div class="Cajas" id="B7"></div>
+        <div class="Cajas" id="B8"></div>
+    </body>
+</html>

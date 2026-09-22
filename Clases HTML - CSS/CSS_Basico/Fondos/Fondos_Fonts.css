@@ -1,0 +1,84 @@
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Thin-100.ttf) format(truetype);
+    font-weight: 100;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-ThinItalic-100.ttf) format(truetype);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-ExtraLight-200.ttf) format(truetype);
+    font-weight: 200;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-ExtraLightItalic-200.ttf) format(truetype);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Light-300.ttf) format(truetype);
+    font-weight: 300;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-LightItalic-300.ttf) format(truetype);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Regular-400.ttf) format(truetype);
+    font-weight: 400;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Italic-400.ttf) format(truetype);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Medium-500.ttf) format(truetype);
+    font-weight: 500;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-MediumItalic-500.ttf) format(truetype);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-SemiBold-600.ttf) format(truetype);
+    font-weight: 600;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-SemiBoldItalic-600.ttf) format(truetype);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-Bold-700.ttf) format(truetype);
+    font-weight: 700;
+    font-style: none;
+}
+@font-face {
+    font-family: PlexSerif;
+    src: url(../../../Fonts/PlexSerif/IBMPlexSerif-BoldItalic-700.ttf) format(truetype);
+    font-weight: 700;
+    font-style: italic;
+}
